@@ -8,6 +8,7 @@ public class CountdownText : MonoBehaviour {
 
 	public delegate void CountdownFinished();
 	public static event CountdownFinished OnCountdownFinished;
+	public int countdown;
 
 
 	Text countdown;
